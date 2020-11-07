@@ -33,6 +33,8 @@ namespace Loyalty.Data
         public DbSet<Store> Stores { get; set; }
         public DbSet<CustomersStores> CustomersStores { get; set; }
         public DbSet<Owner> Owners { get; set; }
+
+        //Deneme
         #endregion
     }
 }
